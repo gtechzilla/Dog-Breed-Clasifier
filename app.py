@@ -13,7 +13,7 @@ labels = ['afghan_hound', 'maltese_dog', 'scottish_deerhound']
 st.title("Dog Breed Classifier")
 st.markdown("Upload an image of a dog and we identify the breed for you")
 
-#
+# button to upload image and submit for prediction
 dog_image = st.file_uploader("Choose image to upload", type="jpg")
 submit = st.button('Predict')
 
